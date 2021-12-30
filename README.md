@@ -11,6 +11,6 @@ python3 mine.py [file name]
 ```
 installation in Windows.
 
-you can [download](main.exe) .exe file and [downlaod](main.py) .py(don`t warking if you dont have python) file
+you can [download](https://github.com/kalivhack/pass_brut/blob/d930be49f2ad1913e0f1b9dddbf8b87283e65c96/main.exe) .exe file and [downlaod](main.py) .py(don`t warking if you dont have python) file
 
 mine.py [file name] => the file name where be saved passwords
