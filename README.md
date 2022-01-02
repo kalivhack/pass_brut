@@ -9,7 +9,7 @@ git clone https://github.com/kalivhack/pass_brut.git
 apt install python3
 cd pass_brut
 chmod +x *
-python3 mine.py [file name]
+python3 mine.py
 ```
 installation in Windows.
 
