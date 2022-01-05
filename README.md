@@ -3,7 +3,7 @@ Hello, this program made for generating brute force password.
 
 installation in Termux/Linux.
 ```
-apt update && apt upgrade -y
+apt update 
 apt install git
 git clone https://github.com/kalivhack/pass_brut.git
 apt install python3
