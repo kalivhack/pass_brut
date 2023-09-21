@@ -1,18 +1,19 @@
-# pass_brut
-Hello, this program made for generating brute force password.
-
-installation in Termux/Linux.
-```
-apt update 
-apt install git
+# BruteForce Password Generator
+## Download and run script
+```bash
 git clone https://github.com/kalivhack/pass_brut.git
-apt install python3
 cd pass_brut
-chmod +x *
-python3 mine.py
+chmod +x main.py
+python main.py -h
 ```
-installation in Windows.
+## Help Menu
+```bash
+usage: Passsword List Generator For BruteForce [-h] [-min MIN] -max MAX -t TYPE [-f FILE]
 
-you can [download](https://github.com/kalivhack/pass_brut/blob/d930be49f2ad1913e0f1b9dddbf8b87283e65c96/main.exe) .exe file and [downlaod](main.py) .py(don`t warking if you dont have python) file
-
-mine.py [file name] => the file name where be saved passwords
+options:
+  -h, --help            show this help message and exit
+  -min MIN, --min MIN   Min Length of Password (default = 3)
+  -max MAX, --max MAX   Max Length of Password
+  -t TYPE, --type TYPE  Letters = 1, Numbers = 2, Symbols = 3 (ex. 1/3)
+  -f FILE, --file FILE  Name Of File To Save Password
+```
